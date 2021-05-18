@@ -1,0 +1,37 @@
+extends templates/main
+
+
+block content
+  // 1 header
+  .container-fuild
+    include mozilla/header/_header.pug
+  // 2 nav
+  .container-fuild
+    include mozilla/nav/nav.pug
+  // 3 ourPassion
+  .container-fuild
+    include mozilla/ourPassion/_ourpasion.pug
+  // 4 menu
+  .container-fuild
+    include mozilla/menu/_menu.pug
+  // 5 categories
+  .container-fuild
+    include mozilla/categories/_categories.pug
+  // 6 ourMenu
+  .container-fuild
+    include mozilla/ourMenu/_ourmenu.pug
+  // 7 excellent
+  .container-fuild
+    include mozilla/excellent/_excellint.pug
+  // 8 team
+  .container-fuild
+    include mozilla/team/_team.pug
+  // 9 locationForm
+  .container-fuild
+    include mozilla/locationForm/_locationform.pug
+  // 10 footer
+  .container-fuild
+    include mozilla/footer/_footer.pug
+
+  block script
+    script( type="module" src="src/js/script.js")
