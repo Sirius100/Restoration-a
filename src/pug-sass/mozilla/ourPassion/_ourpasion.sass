@@ -1,26 +1,44 @@
 .container-fuild:nth-child(3)
-  position: relative
-  top: 45px
-  z-index: 100
   overflow-x: hidden
-
-
-  .wrapper
+  section
     position: relative
-    top: 0px
-    left: -40px
-    width: 105%
-    height: 900px
-
-
-  .container_foto
-    position: absolute
-    top: 80px
-    width: inherit
-    height: 600px
-    transform: rotate(-5deg)
-    // object-fit: cover
-    background-image: url(../img/ourpassion.jpeg)
+    heigth: 919px
+    width: 100%
+    overflow: hidden
+  .fon_jpeg
+    height: 919px
+    width: 100%
+    background-image: linear-gradient(0deg, hsla(28, 88%, 57%, .1), hsla(28, 88%, 57%, 0.3)), url(../img/ourpassion.jpeg)
     background-repeat: no-repeat
-    background-size: 100% 170%
-    background-position: 50% 34%
+    background-size: cover
+    background-position: 50% 50%
+  .fon_jpeg_png
+    height: inherit
+    width: 100%
+    padding-top: 250px
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: 50% 50%
+    background-image: url(../img/fon_catering.png)
+
+
+  .row
+    justify-content: center
+  h1
+    font-family: Merriweather, Arial, serif
+    font-weight: bold
+    font-size: 3em
+    color: $menu-color1
+    position: absolute
+    top: 35%
+    text-align: center
+  img
+    max-width: 500px
+  .container_foto_cickle
+    position: relative
+    bottom: 220px
+    width: 400px
+    height: 400px
+    margin: 0 auto
+    background-color: $menu-color1
+    border-radius: 50%
