@@ -1,2 +1,0 @@
-<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet"> 
-<link href="https://fonts.googleapis.com/css?family=Raleway:600&display=swap" rel="stylesheet"> 
